@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-1 Užduotis</title>
+    <style>
+        body{
+            background: darkblue;
+            color: white;
+            font-size: 20px;
+            box-sizing: border-box;
+            display: flex;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="enlarge()">Gytis</h1>
+    <script>
+        var heading = document.querySelector("h1")
+        function enlarge() {
+        heading.innerHTML = "GYTIS";
+        heading.style.textAlign = "center"
+        heading.style.fontSize = "2em"
+        heading.style.justifyContent = "center"
+        heading.style.margin = "auto"
+        heading.style.color = "red"
+}
+    </script>
+</body>
+</html>
